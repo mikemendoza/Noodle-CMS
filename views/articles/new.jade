@@ -1,0 +1,18 @@
+h2= title
+p Create a new article
+
+form(method="post",action="/articles")
+  input(type="hidden", name="csrf", value=csrf)
+  p
+    label Title
+    br
+    input(type="text", name="article[title]")
+  
+  p
+    label Body
+    br
+    textarea(name="article[body]")
+  
+  input(type="submit", value="Submit")
+  &nbsp;
+  a(href='/articles', title="cancel") Cancel

@@ -1,0 +1,11 @@
+{
+  "development" : {
+    "mongo_uri": "mongodb://localhost/noobjs_development_akin"
+  },
+  "staging" : {
+    "mongo_uri": "mongodb://localhost/noobjs_staging_akin"
+  },
+  "production" : {
+    "mongo_uri": "mongodb://localhost/noobjs_production_akin"
+  }
+}
