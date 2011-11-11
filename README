@@ -1,0 +1,29 @@
+It's been a while and it's still a frustration to see that there's none yet of a cms built on node.js
+<!--more-->
+Apparently the one that we are asking for is simple:
+
+1) CRUD capabilities
+
+2) Able to write to a database
+
+3) Has Authentication features
+
+I have surfaced among many tutorials and examples over the web:
+
+4) howtonode's blog
+
+5) nodetuts products
+
+6) calipso's cms
+
+7) qed's demo
+
+But I haven't still gotten hold of a software that I could really depend on. So I decided to take on a quest,
+
+to produce it myself. I plan to combine the user authentication of products' and demo's. Here's what I'll
+
+come up with:
+
+8) Dissect how user authentication of products' using Mongoose works.
+
+9) Dissect how CRUD of demo's works.
